@@ -1,5 +1,7 @@
 <?php
 namespace Restserver\Libraries;
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Methods: GET, OPTIONS");
 
 use Exception;
 use stdClass;
